@@ -1,0 +1,89 @@
+body {
+    background-color: #ffffff; /* Warna latar belakang */
+}
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+.navbar a {
+    color: #4da6ff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block; 
+    border-radius: 5px;
+}
+.navbar a:hover {
+    background-color: white;
+}
+
+.navbar-light {
+    background-color: #e6f2ff; /* Warna latar belakang navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.bg-danger {
+    background-color: #99ccff !important; /* Soft blue for banner */
+}
+.btn-outline-primary {
+    border-color: #4da6ff;
+    color: #4da6ff;
+}
+.btn-outline-primary:hover {
+    background-color: #4da6ff;
+    color: white;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.brand-box {
+width: 100px; /* Lebar kotak */
+height: 100px; /* Tinggi kotak */
+margin: auto; /* Pusatkan isi */
+border-radius: 10px; /* Bikin sudut agak melengkung */
+background-color: #ffffff; /* Warna latar belakang */
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tambahkan bayangan */
+padding: 10px;
+}
+.brand-box img {
+max-width: 80%; /* Batas ukuran gambar agar tidak terlalu besar */
+max-height: 80%; /* Batasi tinggi gambar */
+object-fit: contain; /* Pastikan gambar tidak terpotong */
+}
+.row.text-center {
+    row-gap: 20px; /* Tambah jarak antar baris */
+}
+.product-card img {
+    width: 100%; /* Gambar menyesuaikan lebar kartu */
+    height: auto; /* Tinggi gambar proporsional */
+    object-fit: cover; /* Gambar terpotong sesuai ukuran kartu tanpa merusak rasio */
+    border-radius: 8px; /* beri efek melengkung di sudut gambar */
+    margin-bottom: 10px; /* Jarak antara gambar dan elemen lain */
+}
+.product-card {
+    width: 100%; /* Kartu mengikuti ukuran kolom */
+    max-width: 300px; /* Batas lebar maksimal kartu */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    margin: auto; /* supaya kartu selalu berada di tengah */
+    overflow: hidden; /* cegah elemen keluar dari kartu */
+    background-color: #fff;
+}
+.keranjang-list tr td:last-child {
+    text-align: center;
+}
+.keranjang-list tr td:last-child button {
+    margin: 0 5px;
+}
+.table-borderless th,
+        .table-borderless td {
+            border: none;
+        }
